@@ -1,0 +1,496 @@
+    /* tulisan navbar */
+    /* ukuran mobile */
+    
+    .bg {
+        background-color: #F8F6FF;
+    }
+    
+    .navbar-collapse {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Roboto;
+    }
+    
+    .jumbotron {
+        background-color: #F8F6FF;
+    }
+    
+    .image {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    
+    .happy {
+        font-size: 100px;
+        text-align: center;
+        font-family: Playfair Display;
+        font-weight: bold;
+        color: #0C1A46;
+    }
+    
+    .progam {
+        font-size: 90px;
+        font-family: Assistant;
+        font-style: italic;
+        letter-spacing: 1px;
+        margin-top: -10px;
+        text-align: justify;
+    }
+    
+    .years {
+        font-size: 90px;
+        text-align: center;
+        font-family: Playfair Display;
+        color: #0C1A46;
+        font-weight: bold;
+    }
+    
+    .fun {
+        font-size: 20px;
+        text-align: center;
+        font-family: Roboto;
+    }
+    
+    .btn {
+        border-radius: 200px;
+        width: 400px;
+        height: 60px;
+        font-size: 25px;
+        color: #2E186A;
+        margin: auto;
+        margin-bottom: -100px;
+        background-color: #FE7624;
+        font-family: Roboto;
+        margin-left: 8%;
+    }
+    
+    .btn:hover {
+        background-color: #F8F6FF;
+    }
+    /* bagian konten */
+    
+    .about {
+        font-size: 40px;
+        border-bottom: 5px solid #FE7624;
+        border-radius: 2px;
+        padding-bottom: 10px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    .lorem {
+        font-family: Roboto;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    
+    .gambar1 {
+        width: 500px;
+        height: 350px;
+        margin: auto;
+        border-radius: 10px;
+        border: 2px solid #FE7624;
+        position: relative;
+    }
+    
+    .block {
+        position: relative;
+        margin-left: 250px;
+    }
+    
+    .detail a {
+        font-size: 18px;
+        font-family: monospace;
+        margin: auto;
+        color: green;
+    }
+    
+    .icon {
+        width: 40px;
+    }
+    /* Perbatasan */
+    /* belum solve */
+    
+    .background {
+        background: linear-gradient(180deg, #FBFAFF 0%, #E2D9FF 100%);
+    }
+    
+    .detail:hover a {
+        color: #FE7624;
+    }
+    
+    .network {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        color: #2E186A;
+        margin: auto;
+        margin-top: 100px;
+        border-bottom: 3px solid #FE7624;
+        border-radius: 2px;
+        position: relative;
+    }
+    
+    .kominfo {
+        width: 250px;
+        height: 100px;
+        position: absolute;
+        margin-left: 140px;
+        margin-top: 200px;
+    }
+    
+    .dicoding {
+        width: 200px;
+        margin: 280px;
+        position: absolute;
+        margin-top: 700px;
+        margin-left: 170px;
+    }
+    
+    .respon {
+        width: 180px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 180px;
+    }
+    
+    .aktif {
+        font-size: 30px;
+        color: #2E186A;
+        font-family: Playfair Display;
+        margin-left: 35%;
+        letter-spacing: 1px;
+        margin-top: 700px;
+        border-bottom: 5px solid #FE7624;
+        position: absolute;
+    }
+    
+    .some {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 32%;
+        margin-top: 800px;
+        font-family: Roboto;
+        font-style: oblique;
+    }
+    
+    .icon2 {
+        width: 40px;
+        position: absolute;
+        margin-left: 7px;
+        margin-top: -5px;
+    }
+    
+    .view:hover a {
+        color: #FE7624;
+        text-decoration: none;
+        position: absolute;
+    }
+    
+    .view a {
+        font-size: 20px;
+        color: green;
+        position: absolute;
+        font-family: monospace;
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    
+    .roket {
+        width: 200px;
+        height: 200px;
+        margin-top: 1000px;
+        margin-left: 200px;
+        position: absolute;
+    }
+    
+    .cloud {
+        width: 100px;
+        height: 100px;
+        margin-left: 180px;
+        margin-top: 400px;
+    }
+    
+    .cloud1 {
+        width: 100px;
+        height: 100px;
+        margin-top: 780px;
+        position: absolute;
+        margin-left: 20px
+    }
+    
+    .card {
+        margin-top: 20%;
+        position: absolute;
+        margin-left: 24%;
+        border-radius: 20px;
+    }
+    
+    .card-body {
+        height: 200px;
+    }
+    
+    .shadow {
+        border-radius: 20px;
+    }
+    /* Ukuran Desktop */
+    /* ukuran Desktop */
+    
+    @media (min-width: 992px) {
+        .bg {
+            background-color: #F8F6FF;
+        }
+        .container {
+            background-color: #F8F6FF;
+        }
+        .nav-link {
+            font-size: 20px;
+            font-family: Roboto;
+            margin-right: 40px;
+            font-weight: 600;
+            background-color: #F8F6FF;
+        }
+        .nav-link:hover::after {
+            border-bottom: 3px solid #FE7624;
+            content: "";
+            display: block;
+            width: 50%;
+            margin: auto;
+            padding-bottom: 1px;
+            margin-bottom: -8px;
+        }
+        .jumbotron {
+            background-color: #F8F6FF;
+        }
+        .navbar-collapse {
+            background-color: #F8F6FF;
+        }
+        .image {
+            width: 60%;
+            height: 50%;
+            margin-left: -120px;
+            margin-top: 40px;
+            position: relative;
+        }
+        .happy {
+            margin-top: -500px;
+            font-size: 80px;
+            text-align: center;
+            margin-left: 130px;
+            font-family: Playfair Display;
+            font-weight: bold;
+            color: #0C1A46;
+        }
+        .progam {
+            font-size: 90px;
+            margin-left: 500px;
+            font-family: Assistant;
+            font-style: italic;
+            letter-spacing: 10px;
+        }
+        .years {
+            font-size: 80px;
+            text-align: center;
+            margin-left: 850px;
+            font-family: Playfair Display;
+            color: #0C1A46;
+            font-weight: bold;
+        }
+        .fun {
+            font-size: 18px;
+            text-align: left;
+            margin-left: 520px;
+            font-family: Roboto;
+            margin-top: -100px;
+            line-height: 22px;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+        .btn {
+            border-radius: 200px;
+            width: 190px;
+            height: 60px;
+            font-size: 20px;
+            color: #2E186A;
+            margin-left: 860px;
+            margin-top: 20px;
+            background-color: #FE7624;
+            font-family: Roboto;
+            position: absolute;
+        }
+        .btn:hover {
+            background-color: #F8F6FF;
+        }
+        /* bagian konten */
+        /* belum */
+        .background {
+            background: linear-gradient(180deg, #FBFAFF 0%, #E2D9FF 100%);
+        }
+        .about {
+            font-size: 40px;
+            border-bottom: 5px solid #FE7624;
+            border-radius: 2px;
+            padding-bottom: 10px;
+            position: absolute;
+        }
+        .lorem {
+            text-align: left;
+            position: absolute;
+            margin-top: 200px;
+            font-family: Roboto;
+            font-size: 18px;
+            font-family: Roboto;
+        }
+        .detail {
+            font-family: monospace;
+            margin: auto;
+            margin-bottom: -5px;
+            position: relative;
+            margin-left: 20px;
+        }
+        .icon {
+            width: 40px;
+        }
+        .detail:hover a {
+            color: #FE7624;
+            text-decoration: none;
+        }
+        /* belum solve */
+        .gambar1 {
+            width: 450px;
+            height: 350px;
+            margin: auto;
+            border-radius: 10px;
+            margin-right: 40px;
+            margin-top: 100px;
+            box-sizing: border-box;
+            border: none;
+        }
+        .kotak-atas {
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            left: 680px;
+            top: 720px;
+            box-sizing: border-box;
+            z-index: 1;
+            background-color: #FE7624;
+            border-radius: 10px;
+        }
+        .kotak-bawah {
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            left: 1080px;
+            top: 1050px;
+            background-color: #2E186A;
+            box-sizing: border-box;
+            z-index: 1;
+            border-radius: 10px;
+        }
+        .network {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            color: #2E186A;
+            margin: auto;
+            margin-top: 100px;
+            border-bottom: 5px solid #FE7624;
+            border-radius: 2px;
+            position: relative;
+        }
+        /*  */
+        .kominfo {
+            width: 300px;
+            height: 120px;
+            margin-top: 300px;
+            margin-left: 20px;
+        }
+        .dicoding {
+            width: 300px;
+            margin: 280px;
+            left: 600px;
+            top: 1170px;
+            position: absolute;
+        }
+        .respon {
+            width: 150px;
+            left: 569px;
+            top: 1400px;
+            margin-top: 20px;
+            margin-left: auto;
+            position: absolute;
+        }
+        .aktif {
+            font-size: 40px;
+            color: #2E186A;
+            font-family: Playfair Display;
+            margin-left: 20px;
+            margin-top: 500px;
+            border-bottom: 5px solid #FE7624;
+            position: absolute;
+        }
+        .some {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: 600px;
+            font-family: Roboto;
+            font-style: oblique;
+        }
+        .icon2 {
+            width: 40px;
+            position: absolute;
+            margin-left: 7px;
+            margin-top: -5px;
+        }
+        .view:hover a {
+            color: #FE7624;
+            text-decoration: none;
+            position: absolute;
+        }
+        .view a {
+            font-size: 20px;
+            color: green;
+            position: absolute;
+            font-family: monospace;
+            margin-left: -300px;
+            margin-top: 700px;
+        }
+        .roket {
+            width: 200px;
+            height: 200px;
+            margin-top: 800px;
+            margin-left: 200px;
+            position: absolute;
+        }
+        .cloud {
+            width: 100px;
+            height: 100px;
+            margin-left: -80px;
+            margin-top: 1000px;
+        }
+        .cloud1 {
+            width: 100px;
+            height: 100px;
+            margin-top: 780px;
+            position: absolute;
+            margin-left: 20px
+        }
+        .card {
+            margin-top: -550px;
+            position: absolute;
+            margin-left: 500px;
+            border-radius: 20px;
+        }
+        .card-body {
+            height: 200px;
+        }
+        .shadow {
+            border-radius: 20px;
+        }
+    }
